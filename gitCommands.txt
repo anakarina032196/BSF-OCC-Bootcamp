@@ -15,3 +15,15 @@ git status = shows wich files are in the staging area
 git add filenames =stages file
 git commit -m "commit message" = commiting file in the staging area
 git rm --caches filename -remoces a file from ataging area
+
+git reser - removes all file in the staging area
+
+Branching
+
+git branch newBranchName = create a new bracj
+git branch -a =list all braches
+git switch branchName =switches to a branch
+git merge branchName = merges branch into branch we are on
+git branch -d branchName =deletes branch if merged in master branchName
+
+git chackout commintID - seeig state of code on a particular commit
