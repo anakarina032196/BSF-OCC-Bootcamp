@@ -1,0 +1,17 @@
+Configuration commmands 
+
+git config --global user.name your-username   = to change user name
+git config --globla user.name your-email  = to change email
+git config user.name = to check username
+git config user.email = to check email
+
+Creating Repos
+
+git init =initialize local git repo
+
+Committing
+
+git status = shows wich files are in the staging area 
+git add filenames =stages file
+git commit -m "commit message" = commiting file in the staging area
+git rm --caches filename -remoces a file from ataging area
